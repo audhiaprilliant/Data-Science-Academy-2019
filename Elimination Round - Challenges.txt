@@ -1,0 +1,35 @@
+===== Use Case =====
+
+Konteks
+Idul Fitri di negara kita merupakan salah satu hari raya yang sangat penting, mengingat 
+Indonesia merupakan negara dengan 87.2% populasi penduduknya beragama Islam. Sudah menjadi 
+tradisi bahwa tiap tahun di hari-hari menjelang Idul Fitri, sebagian besar penduduk Indonesia 
+yang merantau di kota besar seperti Jabodetabek mudik ke daerah asalnya masing-masing. 
+Mereka mudik untuk mengunjungi sanak saudara dengan tujuan bersilaturahmi dan bermaaf-maafan.
+Khusus untuk penduduk Jabodetabek, perpindahan penduduk yang keluar dari Jabodetabek 
+diperkirakan oleh Kemenhub sebanyak 15 juta orang. Kemudian, para pemudik yang sepekan Lebaran 
+berada di kampung halaman pun mulai kembali ke ibu kota; dan kembali bekerja dan bergulat 
+dengan kerasnya Jakarta. Diperkirakan sebanyak 71 ribu pendatang baru akan memasuki Jakarta.
+Sumber: IDNTimes dan Detik
+
+Asumsikan kamu merupakan Data Scientist departemen sumber daya manusia atau Human Resource 
+Department (HRD) dari perusahaan yang bergerak di bidang marketplace bernama TokoLapak. 
+Perusahaan ini memiliki karyawan yang tersebar di Jabodetabek (Jakarta, Kota Bogor, Kabupaten 
+Bogor, Kota Depok, Kota Tangerang, Kota Tangerang Selatan, Kabupaten Tangerang, Kota Bekasi, 
+dan Kabupaten Bekasi), dan setiap karyawan diwajibkan menginstall aplikasi TokoLapak, sehingga
+kamu memiliki sampel data dimana karyawan berada setiap harinya.
+
+Dataset
+Dataset dapat kamu download di platform ini. Berikut adalah keterangan dari dataset, yaitu:
+1. catatan_lokasi.csv
+   Merupakan catatan lokasi dari sampel karyawan TokoLapak dari tanggal 21 Mei 2019 s.d. 15 Juni
+   2019 yang terdiri dari variabel-variabel berikut:
+   id: id unik karyawan
+   tanggal: tanggal pada hari tersebut
+   lokasi_dominan : lokasi di mana karyawan tersebut berada di level kota/kabupaten
+2. data_profil.csv
+   Merupakan tabel profil karyawan yang terdiri dari variabel-variabel berikut:
+   id: id unik karyawan
+   jenis_kelamin : jenis kelamin karyawan
+   divisi : divisi di mana karyawan tersebut bekerja di TokoLapak
+   umur : umur karyawan
