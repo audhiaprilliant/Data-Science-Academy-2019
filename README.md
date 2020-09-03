@@ -1,1 +1,1 @@
-# data-science-academy-2019
+# Data Science Academy 2019
